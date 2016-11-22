@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC58675E1DE407E2003C7B8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC58675D1DE407E2003C7B8E /* main.m */; };
+		EC5867611DE407E2003C7B8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5867601DE407E2003C7B8E /* AppDelegate.m */; };
+		EC5867641DE407E2003C7B8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5867631DE407E2003C7B8E /* ViewController.m */; };
+		EC5867671DE407E2003C7B8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5867651DE407E2003C7B8E /* Main.storyboard */; };
+		EC5867691DE407E2003C7B8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5867681DE407E2003C7B8E /* Assets.xcassets */; };
+		EC58676C1DE407E2003C7B8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC58676A1DE407E2003C7B8E /* LaunchScreen.storyboard */; };
+		EC5867771DE407E2003C7B8E /* CountyCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5867761DE407E2003C7B8E /* CountyCodeTests.m */; };
+		EC5867821DE407E2003C7B8E /* CountyCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5867811DE407E2003C7B8E /* CountyCodeUITests.m */; };
+		EC5867941DE40A76003C7B8E /* CLCountyCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5867931DE40A76003C7B8E /* CLCountyCodeViewController.m */; };
+		EC58679A1DE40AFC003C7B8E /* CLCountryCodeTableViewCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5867991DE40AFC003C7B8E /* CLCountryCodeTableViewCellTableViewCell.m */; };
+		EC58679D1DE42EE9003C7B8E /* PlaceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EC58679C1DE42EE9003C7B8E /* PlaceModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC5867731DE407E2003C7B8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC5867511DE407E2003C7B8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC5867581DE407E2003C7B8E;
+			remoteInfo = CountyCode;
+		};
+		EC58677E1DE407E2003C7B8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC5867511DE407E2003C7B8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC5867581DE407E2003C7B8E;
+			remoteInfo = CountyCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC5867591DE407E2003C7B8E /* CountyCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountyCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC58675D1DE407E2003C7B8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC58675F1DE407E2003C7B8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC5867601DE407E2003C7B8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC5867621DE407E2003C7B8E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC5867631DE407E2003C7B8E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC5867661DE407E2003C7B8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC5867681DE407E2003C7B8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC58676B1DE407E2003C7B8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC58676D1DE407E2003C7B8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5867721DE407E2003C7B8E /* CountyCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountyCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5867761DE407E2003C7B8E /* CountyCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountyCodeTests.m; sourceTree = "<group>"; };
+		EC5867781DE407E2003C7B8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC58677D1DE407E2003C7B8E /* CountyCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountyCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5867811DE407E2003C7B8E /* CountyCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountyCodeUITests.m; sourceTree = "<group>"; };
+		EC5867831DE407E2003C7B8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5867921DE40A76003C7B8E /* CLCountyCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLCountyCodeViewController.h; sourceTree = "<group>"; };
+		EC5867931DE40A76003C7B8E /* CLCountyCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLCountyCodeViewController.m; sourceTree = "<group>"; };
+		EC5867981DE40AFC003C7B8E /* CLCountryCodeTableViewCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLCountryCodeTableViewCellTableViewCell.h; path = ../CLCountryCodeTableViewCellTableViewCell.h; sourceTree = "<group>"; };
+		EC5867991DE40AFC003C7B8E /* CLCountryCodeTableViewCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLCountryCodeTableViewCellTableViewCell.m; path = ../CLCountryCodeTableViewCellTableViewCell.m; sourceTree = "<group>"; };
+		EC58679B1DE42EE9003C7B8E /* PlaceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceModel.h; sourceTree = "<group>"; };
+		EC58679C1DE42EE9003C7B8E /* PlaceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC5867561DE407E2003C7B8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC58676F1DE407E2003C7B8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC58677A1DE407E2003C7B8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC5867501DE407E2003C7B8E = {
+			isa = PBXGroup;
+			children = (
+				EC58675B1DE407E2003C7B8E /* CountyCode */,
+				EC5867751DE407E2003C7B8E /* CountyCodeTests */,
+				EC5867801DE407E2003C7B8E /* CountyCodeUITests */,
+				EC58675A1DE407E2003C7B8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC58675A1DE407E2003C7B8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC5867591DE407E2003C7B8E /* CountyCode.app */,
+				EC5867721DE407E2003C7B8E /* CountyCodeTests.xctest */,
+				EC58677D1DE407E2003C7B8E /* CountyCodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC58675B1DE407E2003C7B8E /* CountyCode */ = {
+			isa = PBXGroup;
+			children = (
+				EC58675F1DE407E2003C7B8E /* AppDelegate.h */,
+				EC5867601DE407E2003C7B8E /* AppDelegate.m */,
+				EC5867621DE407E2003C7B8E /* ViewController.h */,
+				EC5867631DE407E2003C7B8E /* ViewController.m */,
+				EC5867921DE40A76003C7B8E /* CLCountyCodeViewController.h */,
+				EC5867931DE40A76003C7B8E /* CLCountyCodeViewController.m */,
+				EC58679B1DE42EE9003C7B8E /* PlaceModel.h */,
+				EC58679C1DE42EE9003C7B8E /* PlaceModel.m */,
+				EC5867981DE40AFC003C7B8E /* CLCountryCodeTableViewCellTableViewCell.h */,
+				EC5867991DE40AFC003C7B8E /* CLCountryCodeTableViewCellTableViewCell.m */,
+				EC5867651DE407E2003C7B8E /* Main.storyboard */,
+				EC5867681DE407E2003C7B8E /* Assets.xcassets */,
+				EC58676A1DE407E2003C7B8E /* LaunchScreen.storyboard */,
+				EC58676D1DE407E2003C7B8E /* Info.plist */,
+				EC58675C1DE407E2003C7B8E /* Supporting Files */,
+			);
+			path = CountyCode;
+			sourceTree = "<group>";
+		};
+		EC58675C1DE407E2003C7B8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC58675D1DE407E2003C7B8E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC5867751DE407E2003C7B8E /* CountyCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC5867761DE407E2003C7B8E /* CountyCodeTests.m */,
+				EC5867781DE407E2003C7B8E /* Info.plist */,
+			);
+			path = CountyCodeTests;
+			sourceTree = "<group>";
+		};
+		EC5867801DE407E2003C7B8E /* CountyCodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC5867811DE407E2003C7B8E /* CountyCodeUITests.m */,
+				EC5867831DE407E2003C7B8E /* Info.plist */,
+			);
+			path = CountyCodeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC5867581DE407E2003C7B8E /* CountyCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC5867861DE407E2003C7B8E /* Build configuration list for PBXNativeTarget "CountyCode" */;
+			buildPhases = (
+				EC5867551DE407E2003C7B8E /* Sources */,
+				EC5867561DE407E2003C7B8E /* Frameworks */,
+				EC5867571DE407E2003C7B8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CountyCode;
+			productName = CountyCode;
+			productReference = EC5867591DE407E2003C7B8E /* CountyCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC5867711DE407E2003C7B8E /* CountyCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC5867891DE407E2003C7B8E /* Build configuration list for PBXNativeTarget "CountyCodeTests" */;
+			buildPhases = (
+				EC58676E1DE407E2003C7B8E /* Sources */,
+				EC58676F1DE407E2003C7B8E /* Frameworks */,
+				EC5867701DE407E2003C7B8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC5867741DE407E2003C7B8E /* PBXTargetDependency */,
+			);
+			name = CountyCodeTests;
+			productName = CountyCodeTests;
+			productReference = EC5867721DE407E2003C7B8E /* CountyCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC58677C1DE407E2003C7B8E /* CountyCodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC58678C1DE407E2003C7B8E /* Build configuration list for PBXNativeTarget "CountyCodeUITests" */;
+			buildPhases = (
+				EC5867791DE407E2003C7B8E /* Sources */,
+				EC58677A1DE407E2003C7B8E /* Frameworks */,
+				EC58677B1DE407E2003C7B8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC58677F1DE407E2003C7B8E /* PBXTargetDependency */,
+			);
+			name = CountyCodeUITests;
+			productName = CountyCodeUITests;
+			productReference = EC58677D1DE407E2003C7B8E /* CountyCodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC5867511DE407E2003C7B8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = chenlu;
+				TargetAttributes = {
+					EC5867581DE407E2003C7B8E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					EC5867711DE407E2003C7B8E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC5867581DE407E2003C7B8E;
+					};
+					EC58677C1DE407E2003C7B8E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC5867581DE407E2003C7B8E;
+					};
+				};
+			};
+			buildConfigurationList = EC5867541DE407E2003C7B8E /* Build configuration list for PBXProject "CountyCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC5867501DE407E2003C7B8E;
+			productRefGroup = EC58675A1DE407E2003C7B8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC5867581DE407E2003C7B8E /* CountyCode */,
+				EC5867711DE407E2003C7B8E /* CountyCodeTests */,
+				EC58677C1DE407E2003C7B8E /* CountyCodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC5867571DE407E2003C7B8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC58676C1DE407E2003C7B8E /* LaunchScreen.storyboard in Resources */,
+				EC5867691DE407E2003C7B8E /* Assets.xcassets in Resources */,
+				EC5867671DE407E2003C7B8E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5867701DE407E2003C7B8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC58677B1DE407E2003C7B8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC5867551DE407E2003C7B8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5867641DE407E2003C7B8E /* ViewController.m in Sources */,
+				EC58679D1DE42EE9003C7B8E /* PlaceModel.m in Sources */,
+				EC5867611DE407E2003C7B8E /* AppDelegate.m in Sources */,
+				EC5867941DE40A76003C7B8E /* CLCountyCodeViewController.m in Sources */,
+				EC58679A1DE40AFC003C7B8E /* CLCountryCodeTableViewCellTableViewCell.m in Sources */,
+				EC58675E1DE407E2003C7B8E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC58676E1DE407E2003C7B8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5867771DE407E2003C7B8E /* CountyCodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5867791DE407E2003C7B8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5867821DE407E2003C7B8E /* CountyCodeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC5867741DE407E2003C7B8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC5867581DE407E2003C7B8E /* CountyCode */;
+			targetProxy = EC5867731DE407E2003C7B8E /* PBXContainerItemProxy */;
+		};
+		EC58677F1DE407E2003C7B8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC5867581DE407E2003C7B8E /* CountyCode */;
+			targetProxy = EC58677E1DE407E2003C7B8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC5867651DE407E2003C7B8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC5867661DE407E2003C7B8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC58676A1DE407E2003C7B8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC58676B1DE407E2003C7B8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC5867841DE407E2003C7B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC5867851DE407E2003C7B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC5867871DE407E2003C7B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CountyCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lulu.CountyCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC5867881DE407E2003C7B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CountyCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lulu.CountyCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC58678A1DE407E2003C7B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CountyCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lulu.CountyCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountyCode.app/CountyCode";
+			};
+			name = Debug;
+		};
+		EC58678B1DE407E2003C7B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CountyCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lulu.CountyCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountyCode.app/CountyCode";
+			};
+			name = Release;
+		};
+		EC58678D1DE407E2003C7B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CountyCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lulu.CountyCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CountyCode;
+			};
+			name = Debug;
+		};
+		EC58678E1DE407E2003C7B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CountyCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lulu.CountyCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CountyCode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC5867541DE407E2003C7B8E /* Build configuration list for PBXProject "CountyCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5867841DE407E2003C7B8E /* Debug */,
+				EC5867851DE407E2003C7B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC5867861DE407E2003C7B8E /* Build configuration list for PBXNativeTarget "CountyCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5867871DE407E2003C7B8E /* Debug */,
+				EC5867881DE407E2003C7B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC5867891DE407E2003C7B8E /* Build configuration list for PBXNativeTarget "CountyCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC58678A1DE407E2003C7B8E /* Debug */,
+				EC58678B1DE407E2003C7B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC58678C1DE407E2003C7B8E /* Build configuration list for PBXNativeTarget "CountyCodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC58678D1DE407E2003C7B8E /* Debug */,
+				EC58678E1DE407E2003C7B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC5867511DE407E2003C7B8E /* Project object */;
+}
