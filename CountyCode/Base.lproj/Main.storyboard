@@ -38,7 +38,7 @@
                         <inset key="scrollIndicatorInsets" minX="0.0" minY="8" maxX="0.0" maxY="0.0"/>
                         <color key="separatorColor" red="0.1764705882" green="0.1764705882" blue="0.1764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CLCountryCodeTableViewCellTableViewCell" rowHeight="50" id="Tfc-iu-QJ7" customClass="CLCountryCodeTableViewCellTableViewCell">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="CLCountryCodeTableViewCellTableViewCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="CLCountryCodeTableViewCellTableViewCell" rowHeight="50" id="Tfc-iu-QJ7" customClass="CLCountryCodeTableViewCellTableViewCell">
                                 <rect key="frame" x="0.0" y="23" width="375" height="50"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Tfc-iu-QJ7" id="llR-K0-ELB">

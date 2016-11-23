@@ -27,12 +27,16 @@
     [self.view addSubview:_btn];
 }
 - (void)btnAction {
-    CLCountyCodeViewController *VC = [[CLCountyCodeViewController alloc] init];
+    CLCountyCodeViewController *VC = [[CLCountyCodeViewController alloc] initWithStoryBoard];
     VC.countryCodeBlock = ^(NSString *code){
-        [self.navigationController popViewControllerAnimated:YES];
+        [self dismissViewControllerAnimated:YES completion:^{
+            
+        }];
         [_btn setTitle:code forState:UIControlStateNormal];
     };
-    [self.navigationController pushViewController:VC animated:YES];
+    [self presentViewController:VC animated:YES completion:^{
+        
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

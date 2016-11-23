@@ -100,7 +100,7 @@
     NSArray *userNameInSection = [_indexArray objectAtIndex:indexPath.section];
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     PlaceModel *userObj = [userNameInSection objectAtIndex:indexPath.row];
-    cell.countyNameLabel.text = userObj.name;
+//    cell.countyNameLabel.text = userObj.name;
     if ([userObj.code isEqualToString:@"<null>"]) {
         cell.countyCodeLabel.text = @"";
     }else{

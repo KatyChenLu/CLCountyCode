@@ -12,4 +12,5 @@ typedef void (^CountryCodeBlock)(NSString *code);
 @interface CLCountyCodeViewController : UITableViewController
 
 @property (nonatomic, copy)CountryCodeBlock countryCodeBlock;
+- (instancetype)initWithStoryBoard;
 @end
