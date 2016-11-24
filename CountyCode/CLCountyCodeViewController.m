@@ -28,7 +28,7 @@
     if (self) {
         
     }
-    /////
+    ///
     return self;
 }
 - (void)viewDidLoad {
