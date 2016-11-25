@@ -10,9 +10,8 @@
 
 @interface PlaceModel : NSObject
 
--(instancetype)initWithNameStr:(NSString *)nameStr andCode:(NSString *)codeStr;
+- (instancetype) initWithName:(NSString *)name andCode:code;
 
-@property (assign, readwrite, nonatomic) NSString *name;
-@property (assign, readwrite, nonatomic) NSString *code;
-
+@property (nonatomic, copy) NSString *name;
+@property (nonatomic, copy) NSString *code;
 @end

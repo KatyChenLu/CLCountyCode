@@ -10,12 +10,14 @@
 
 @implementation PlaceModel
 
--(instancetype)initWithNameStr:(NSString *)nameStr andCode:(NSString *)codeStr
+
+- (instancetype)initWithName:(NSString *)name andCode:(id)code
 {
-    if(self =[super init]){
-        self.name = nameStr;
-        self.code = codeStr;
+    if (self = [super init]) {
+        self.name = name;
+        self.code = code;
     }
+    
     return self;
 }
 @end
