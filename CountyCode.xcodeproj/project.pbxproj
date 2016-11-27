@@ -16,8 +16,8 @@
 		EC5867771DE407E2003C7B8E /* CountyCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5867761DE407E2003C7B8E /* CountyCodeTests.m */; };
 		EC5867821DE407E2003C7B8E /* CountyCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5867811DE407E2003C7B8E /* CountyCodeUITests.m */; };
 		EC5867941DE40A76003C7B8E /* CLCountyCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5867931DE40A76003C7B8E /* CLCountyCodeViewController.m */; };
-		EC58679A1DE40AFC003C7B8E /* CLCountryCodeTableViewCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5867991DE40AFC003C7B8E /* CLCountryCodeTableViewCellTableViewCell.m */; };
 		EC58679D1DE42EE9003C7B8E /* PlaceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EC58679C1DE42EE9003C7B8E /* PlaceModel.m */; };
+		ECC686C41DE9788C0057B334 /* CLCountryCodeTableViewCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC686C31DE9788C0057B334 /* CLCountryCodeTableViewCellTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,10 +56,10 @@
 		EC5867831DE407E2003C7B8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC5867921DE40A76003C7B8E /* CLCountyCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLCountyCodeViewController.h; sourceTree = "<group>"; };
 		EC5867931DE40A76003C7B8E /* CLCountyCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLCountyCodeViewController.m; sourceTree = "<group>"; };
-		EC5867981DE40AFC003C7B8E /* CLCountryCodeTableViewCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLCountryCodeTableViewCellTableViewCell.h; path = ../CLCountryCodeTableViewCellTableViewCell.h; sourceTree = "<group>"; };
-		EC5867991DE40AFC003C7B8E /* CLCountryCodeTableViewCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLCountryCodeTableViewCellTableViewCell.m; path = ../CLCountryCodeTableViewCellTableViewCell.m; sourceTree = "<group>"; };
 		EC58679B1DE42EE9003C7B8E /* PlaceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceModel.h; sourceTree = "<group>"; };
 		EC58679C1DE42EE9003C7B8E /* PlaceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceModel.m; sourceTree = "<group>"; };
+		ECC686C21DE9788C0057B334 /* CLCountryCodeTableViewCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLCountryCodeTableViewCellTableViewCell.h; sourceTree = "<group>"; };
+		ECC686C31DE9788C0057B334 /* CLCountryCodeTableViewCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLCountryCodeTableViewCellTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,10 +116,10 @@
 				EC5867631DE407E2003C7B8E /* ViewController.m */,
 				EC5867921DE40A76003C7B8E /* CLCountyCodeViewController.h */,
 				EC5867931DE40A76003C7B8E /* CLCountyCodeViewController.m */,
+				ECC686C21DE9788C0057B334 /* CLCountryCodeTableViewCellTableViewCell.h */,
+				ECC686C31DE9788C0057B334 /* CLCountryCodeTableViewCellTableViewCell.m */,
 				EC58679B1DE42EE9003C7B8E /* PlaceModel.h */,
 				EC58679C1DE42EE9003C7B8E /* PlaceModel.m */,
-				EC5867981DE40AFC003C7B8E /* CLCountryCodeTableViewCellTableViewCell.h */,
-				EC5867991DE40AFC003C7B8E /* CLCountryCodeTableViewCellTableViewCell.m */,
 				EC5867651DE407E2003C7B8E /* Main.storyboard */,
 				EC5867681DE407E2003C7B8E /* Assets.xcassets */,
 				EC58676A1DE407E2003C7B8E /* LaunchScreen.storyboard */,
@@ -288,11 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECC686C41DE9788C0057B334 /* CLCountryCodeTableViewCellTableViewCell.m in Sources */,
 				EC5867641DE407E2003C7B8E /* ViewController.m in Sources */,
 				EC58679D1DE42EE9003C7B8E /* PlaceModel.m in Sources */,
 				EC5867611DE407E2003C7B8E /* AppDelegate.m in Sources */,
 				EC5867941DE40A76003C7B8E /* CLCountyCodeViewController.m in Sources */,
-				EC58679A1DE40AFC003C7B8E /* CLCountryCodeTableViewCellTableViewCell.m in Sources */,
 				EC58675E1DE407E2003C7B8E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -125,6 +125,12 @@
    
 
 }
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    PlaceModel * model = [self.dataSource[indexPath.section] objectAtIndex:indexPath.row];
+    if (_countryCodeBlock) {
+        _countryCodeBlock([NSString stringWithFormat:@"+%@",model.code]);
+    }
+}
 
 - (void)configureCell:(CLCountryCodeTableViewCellTableViewCell *)cell
     forRowAtIndexPath:(NSIndexPath *)indexPath
