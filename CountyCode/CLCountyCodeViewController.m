@@ -121,14 +121,11 @@
     [self configureCell:cell forRowAtIndexPath:indexPath];
     
     return cell;
-    
-   
-
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     PlaceModel * model = [self.dataSource[indexPath.section] objectAtIndex:indexPath.row];
     if (_countryCodeBlock) {
-        _countryCodeBlock([NSString stringWithFormat:@" +%@",model.code]);
+        _countryCodeBlock([NSString stringWithFormat:@"+%@",model.code]);
     }
 }
 

@@ -14,8 +14,8 @@
 - (instancetype)initWithName:(NSString *)name andCode:(id)code
 {
     if (self = [super init]) {
-        self.name = name;
-        self.code = code;
+        self.name =  name;
+        self.code =  code;
     }
     
     return self;
