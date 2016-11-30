@@ -43,6 +43,7 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    //11.30 今天开始深入学习nsoperation，加油。
 }
 
 
