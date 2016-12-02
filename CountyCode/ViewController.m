@@ -45,6 +45,7 @@
     // Dispose of any resources that can be recreated.
     //11.30 今天开始深入学习nsoperation，加油。
     //12.1 昨天没学成，今天开始吧。。
+    //12.2昨天上线了版本，今天又该有新的任务了。，期待团建时溜冰啊哈哈
 }
 
 
