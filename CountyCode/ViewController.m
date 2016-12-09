@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     _btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    _btn.frame = CGRectMake(0, 0, 100, 50);
+    _btn.frame = CGRectMake(0, 0, 100, 100);
     _btn.center = self.view.center;
     _btn.backgroundColor = [UIColor redColor];
     _btn.tintColor =[UIColor whiteColor];
