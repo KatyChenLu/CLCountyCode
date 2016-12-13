@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "CLCountyCodeViewController.h"
+#import "CLLViewController.h"
+#import "CLXibViewController.h"
 
 @interface ViewController ()
 @property (nonatomic,strong)UIButton * btn;
@@ -28,13 +30,15 @@
     //
 }
 - (void)btnAction {
-    CLCountyCodeViewController *VC = [[CLCountyCodeViewController alloc] initWithStoryBoard];
-    VC.countryCodeBlock = ^(NSString *code){
-        [self dismissViewControllerAnimated:YES completion:^{
-            
-        }];
-        [_btn setTitle:code forState:UIControlStateNormal];
-    };
+//    CLCountyCodeViewController *VC = [[CLCountyCodeViewController alloc] initWithStoryBoard];
+//    VC.countryCodeBlock = ^(NSString *code){
+//        [self dismissViewControllerAnimated:YES completion:^{
+//            
+//        }];
+//        [_btn setTitle:code forState:UIControlStateNormal];
+//    };
+    CLXibViewController *VC = [[CLXibViewController alloc] initWithNibName:@"CLXibViewController" bundle:nil];
+    
     [self presentViewController:VC animated:YES completion:^{
         
     }];

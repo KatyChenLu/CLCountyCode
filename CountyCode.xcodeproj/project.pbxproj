@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC390EB91DFFE49C00B5894E /* CLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC390EB81DFFE49C00B5894E /* CLViewController.m */; };
+		EC390EBC1DFFE6B900B5894E /* CLLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC390EBB1DFFE6B900B5894E /* CLLViewController.m */; };
+		EC390EC01DFFE83800B5894E /* CLXibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC390EBE1DFFE83800B5894E /* CLXibViewController.m */; };
+		EC390EC11DFFE83800B5894E /* CLXibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC390EBF1DFFE83800B5894E /* CLXibViewController.xib */; };
 		EC58675E1DE407E2003C7B8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC58675D1DE407E2003C7B8E /* main.m */; };
 		EC5867611DE407E2003C7B8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5867601DE407E2003C7B8E /* AppDelegate.m */; };
 		EC5867641DE407E2003C7B8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5867631DE407E2003C7B8E /* ViewController.m */; };
@@ -38,6 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC390EB71DFFE49C00B5894E /* CLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLViewController.h; sourceTree = "<group>"; };
+		EC390EB81DFFE49C00B5894E /* CLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLViewController.m; sourceTree = "<group>"; };
+		EC390EBA1DFFE6B900B5894E /* CLLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLViewController.h; sourceTree = "<group>"; };
+		EC390EBB1DFFE6B900B5894E /* CLLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLViewController.m; sourceTree = "<group>"; };
+		EC390EBD1DFFE83800B5894E /* CLXibViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLXibViewController.h; sourceTree = "<group>"; };
+		EC390EBE1DFFE83800B5894E /* CLXibViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLXibViewController.m; sourceTree = "<group>"; };
+		EC390EBF1DFFE83800B5894E /* CLXibViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLXibViewController.xib; sourceTree = "<group>"; };
 		EC5867591DE407E2003C7B8E /* CountyCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountyCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC58675D1DE407E2003C7B8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EC58675F1DE407E2003C7B8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -114,6 +125,8 @@
 				EC5867601DE407E2003C7B8E /* AppDelegate.m */,
 				EC5867621DE407E2003C7B8E /* ViewController.h */,
 				EC5867631DE407E2003C7B8E /* ViewController.m */,
+				EC390EBA1DFFE6B900B5894E /* CLLViewController.h */,
+				EC390EBB1DFFE6B900B5894E /* CLLViewController.m */,
 				EC5867921DE40A76003C7B8E /* CLCountyCodeViewController.h */,
 				EC5867931DE40A76003C7B8E /* CLCountyCodeViewController.m */,
 				ECC686C21DE9788C0057B334 /* CLCountryCodeTableViewCellTableViewCell.h */,
@@ -121,6 +134,11 @@
 				EC58679B1DE42EE9003C7B8E /* PlaceModel.h */,
 				EC58679C1DE42EE9003C7B8E /* PlaceModel.m */,
 				EC5867651DE407E2003C7B8E /* Main.storyboard */,
+				EC390EB71DFFE49C00B5894E /* CLViewController.h */,
+				EC390EB81DFFE49C00B5894E /* CLViewController.m */,
+				EC390EBD1DFFE83800B5894E /* CLXibViewController.h */,
+				EC390EBE1DFFE83800B5894E /* CLXibViewController.m */,
+				EC390EBF1DFFE83800B5894E /* CLXibViewController.xib */,
 				EC5867681DE407E2003C7B8E /* Assets.xcassets */,
 				EC58676A1DE407E2003C7B8E /* LaunchScreen.storyboard */,
 				EC58676D1DE407E2003C7B8E /* Info.plist */,
@@ -262,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC58676C1DE407E2003C7B8E /* LaunchScreen.storyboard in Resources */,
+				EC390EC11DFFE83800B5894E /* CLXibViewController.xib in Resources */,
 				EC5867691DE407E2003C7B8E /* Assets.xcassets in Resources */,
 				EC5867671DE407E2003C7B8E /* Main.storyboard in Resources */,
 			);
@@ -288,12 +307,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC390EBC1DFFE6B900B5894E /* CLLViewController.m in Sources */,
 				ECC686C41DE9788C0057B334 /* CLCountryCodeTableViewCellTableViewCell.m in Sources */,
 				EC5867641DE407E2003C7B8E /* ViewController.m in Sources */,
 				EC58679D1DE42EE9003C7B8E /* PlaceModel.m in Sources */,
+				EC390EB91DFFE49C00B5894E /* CLViewController.m in Sources */,
 				EC5867611DE407E2003C7B8E /* AppDelegate.m in Sources */,
 				EC5867941DE40A76003C7B8E /* CLCountyCodeViewController.m in Sources */,
 				EC58675E1DE407E2003C7B8E /* main.m in Sources */,
+				EC390EC01DFFE83800B5894E /* CLXibViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
