@@ -30,14 +30,14 @@
     //
 }
 - (void)btnAction {
-//    CLCountyCodeViewController *VC = [[CLCountyCodeViewController alloc] initWithStoryBoard];
-//    VC.countryCodeBlock = ^(NSString *code){
-//        [self dismissViewControllerAnimated:YES completion:^{
-//            
-//        }];
-//        [_btn setTitle:code forState:UIControlStateNormal];
-//    };
-    CLXibViewController *VC = [[CLXibViewController alloc] initWithNibName:@"CLXibViewController" bundle:nil];
+    CLCountyCodeViewController *VC = [[CLCountyCodeViewController alloc] initWithStoryBoard];
+    VC.countryCodeBlock = ^(NSString *code){
+        [self dismissViewControllerAnimated:YES completion:^{
+            
+        }];
+        [_btn setTitle:code forState:UIControlStateNormal];
+    };
+//    CLXibViewController *VC = [[CLXibViewController alloc] initWithNibName:@"CLXibViewController" bundle:nil];
     
     [self presentViewController:VC animated:YES completion:^{
         
