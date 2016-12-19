@@ -37,8 +37,9 @@
         }];
         [_btn setTitle:code forState:UIControlStateNormal];
     };
-    //...
+    //...。
     //////
+    ////
 //    CLXibViewController *VC = [[CLXibViewController alloc] initWithNibName:@"CLXibViewController" bundle:nil];
     
     [self presentViewController:VC animated:YES completion:^{
