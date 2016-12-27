@@ -37,6 +37,7 @@
         }];
         [_btn setTitle:code forState:UIControlStateNormal];
     };
+    
 //    CLXibViewController *VC = [[CLXibViewController alloc] initWithNibName:@"CLXibViewController" bundle:nil];
     
     [self presentViewController:VC animated:YES completion:^{
@@ -63,7 +64,6 @@
     //12.10签了合同，一万六。心疼
     //12.11星球大战
     //12.12fuck
-    //12.13bbbbbbbb
 }
 
 
