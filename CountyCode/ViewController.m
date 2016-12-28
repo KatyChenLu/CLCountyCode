@@ -12,6 +12,8 @@
 #import "CLXibViewController.h"
 #import "CLCountDownTestViewController.h"
 
+#import "CLArrayViewController.h"
+
 @interface ViewController ()
 @property (nonatomic,strong)UIButton * btn;
 @end
@@ -41,7 +43,8 @@
     
 //    CLXibViewController *VC = [[CLXibViewController alloc] initWithNibName:@"CLXibViewController" bundle:nil];
     
-    CLCountDownTestViewController *VC = [[CLCountDownTestViewController  alloc] init];
+//    CLCountDownTestViewController *VC = [[CLCountDownTestViewController  alloc] init];
+    CLArrayViewController *VC = [[CLArrayViewController  alloc] init];
     
     [self presentViewController:VC animated:YES completion:^{
         
