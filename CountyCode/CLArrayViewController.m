@@ -9,7 +9,7 @@
 #import "CLArrayViewController.h"
 
 @interface CLArrayViewController ()
-
+@property (nonatomic, strong) NSMutableArray *array;
 @end
 
 @implementation CLArrayViewController
@@ -17,20 +17,38 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    NSMutableArray *array = [NSMutableArray arrayWithObjects:@"1",@"2",@"3",@"4",@"5",@"6", nil];
+    _array = [NSMutableArray arrayWithObjects:@"1",@"2",@"3",@"4",@"5",@"6", nil];
 //    NSArray *reversedArray = [[array objectEnumerator] allObjects];
 //    NSLog(@"%@",reversedArray);
-    [array enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        if ([obj isEqualToString:@"4"]) {
-            *stop = YES;
-        }
-        NSLog(@"langArray[%ld]= %@",idx, obj);
-
-    }];
+    
+    [_array makeObjectsPerformSelector:@selector(abc)];
+    
+   BOOL isShow = [self acd];
+    
 //    for (int i = 0; i < array.count; i++) {
 //        NSLog(@"langArray[%d]= %@",i, langArray[i]);
 //    }
+    [_array enumerateObjectsWithOptions:NSEnumerationReverse usingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+         NSLog(@"langArray[%ld]= %@",idx, obj);
+    }];
 
+}
+- (void)abc {
+    NSLog(@"1");
+}
+-(BOOL )acd{
+   __block BOOL isis = NO;
+    [_array enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        if ([obj isEqualToString:@"19"]) {
+            *stop = YES;
+           isis = YES;
+        }else{
+            isis = NO;
+        }
+        NSLog(@"langArray[%ld]= %@",idx, obj);
+        
+    }];
+    return isis;
 }
 
 - (void)didReceiveMemoryWarning {
