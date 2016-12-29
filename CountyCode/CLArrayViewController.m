@@ -29,7 +29,7 @@
 //        NSLog(@"langArray[%d]= %@",i, langArray[i]);
 //    }
     [_array enumerateObjectsWithOptions:NSEnumerationReverse usingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-         NSLog(@"langArray[%ld]= %@",idx, obj);
+//         NSLog(@"langArray[%ld]= %@",idx, obj);
     }];
 
 }
