@@ -19,7 +19,7 @@
     // Do any additional setup after loading the view.
     _array = [NSMutableArray arrayWithObjects:@"1",@"2",@"3",@"4",@"5",@"6", nil];
 //    NSArray *reversedArray = [[array objectEnumerator] allObjects];
-//    NSLog(@"%@",reversedArray);
+
     
     [_array makeObjectsPerformSelector:@selector(abc)];
     
