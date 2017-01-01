@@ -30,6 +30,8 @@
 //    }
     [_array enumerateObjectsWithOptions:NSEnumerationReverse usingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
 //         NSLog(@"langArray[%ld]= %@",idx, obj);
+        //
+        //
     }];
 
 }
