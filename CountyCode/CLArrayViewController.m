@@ -32,7 +32,7 @@
 //         NSLog(@"langArray[%ld]= %@",idx, obj);
         //
     
-    }];/////
+    }];
 
 }
 - (void)abc {
