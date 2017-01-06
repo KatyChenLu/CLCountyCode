@@ -30,7 +30,6 @@
     [_btn setTitle:@"btn" forState:UIControlStateNormal];
     [_btn addTarget:self action:@selector(btnAction) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:_btn];
-    //
 }
 - (void)btnAction {
 //    CLCountyCodeViewController *VC = [[CLCountyCodeViewController alloc] initWithStoryBoard];
